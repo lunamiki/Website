@@ -1,0 +1,86 @@
+/*
+Name: Susie Shen
+Date: 08.27.18
+Section: CSE Startup
+
+This is style.css, which contains all the styling information for all
+parts of my website such as font styles, background colors, and
+background images.
+*/
+header {
+  border: 3px solid black;
+  text-align: left;
+  font-style: italic;
+  background-image: url("IMG_4039.JPG");
+  padding: 20px;
+  text-indent: 50px;
+  font-style: oblique;
+}
+/*sidebar*/
+.main {
+  float: left;
+  width: 25%;
+  height: auto;
+  padding: 20px;
+  height: 800px;
+  background-color: #FFDAB9;
+	
+}
+.main ul {
+  list-style-type: none;
+  font-size: 20px;
+}
+
+/*text*/
+#intro {
+  font-size: 30px;
+  text-align: center;
+  color: black;
+}
+#contact {
+  font-size: 30px;
+  color: black;
+}
+
+.social ul {
+  list-style-type: none;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: auto;
+}
+.short {
+  height: 480px;
+}
+.class {
+  height: 100%;
+}
+.description {
+  float: right;
+  padding: 30px;
+}
+h3 {
+  font-size: 20px;
+}
+.text {
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  border: 3px solid black;
+  text-align: left;
+  font-style: italic;
+  background-image: url("IMG_4039.JPG");
+  padding: 20px;
+  position: relative;
+}
+/*
+  All images are my own.
+  Used w3schools as a reference.
+*/
